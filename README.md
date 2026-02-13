@@ -1,51 +1,42 @@
-# Verilog RTL Designs using Xilinx Vivado
+# Verilog RTL Designs (Vivado)
 
-This repository contains basic and intermediate RTL designs implemented in Verilog HDL and verified using Xilinx Vivado.
+This repository contains some of the basic RTL designs that I implemented using Verilog HDL and verified in Xilinx Vivado.
+
+I created this project to strengthen my understanding of digital design fundamentals including combinational logic, sequential logic, and FSM design.
 
 ---
 
-## 📂 Repository Structure
+## Implemented Designs
 
-### 🔷 Combinational Circuits
+### Combinational Circuits
 - Half Adder
 - Full Adder
 - 4-bit Ripple Carry Adder
 
-### 🔷 Sequential Circuits
+### Sequential Circuits
 - D Flip-Flop (Asynchronous Reset)
-- 4-bit Up-Down Counter (Synchronous)
+- 4-bit Up-Down Counter
 - Traffic Light Controller (Moore FSM)
 
+Each design includes:
+- Verilog RTL code
+- Testbench
+- Simulation verification in Vivado
+
 ---
 
-## 🛠 Tools Used
+## Tools Used
 - Verilog HDL
-- Xilinx Vivado Simulator
+- Xilinx Vivado
 - Git & GitHub
-- Command Line (CMD)
 
 ---
 
-## 🎯 Learning Objectives
-- Understanding combinational logic design
-- Designing multi-bit arithmetic circuits
-- Implementing clocked sequential logic
-- FSM design using Moore model
-- Writing clean testbenches
-- Version control using Git
+## Why I Built This
+The goal of this repository is to build a strong foundation in RTL design and understand how digital circuits behave at the hardware level.
+
+More designs will be added as I continue learning.
 
 ---
 
-## 🚀 Future Enhancements
-- Parameterized N-bit Adder
-- UART Design using FSM
-- ALU Design
-- Synthesis & Timing Reports
-- FPGA Implementation
-
----
-
-## 👨‍💻 Author
-Rahul
-
----
+Author: Rahul
